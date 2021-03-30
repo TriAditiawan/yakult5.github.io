@@ -1,0 +1,151 @@
+.section {
+  padding-top: 70px;
+}
+#home {
+  margin-top: 55px;
+}
+nav {
+  background-color: #ed1847;
+}
+.navbar-brand {
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 14px;
+}
+
+.img-img img {
+  width: 100%;
+}
+.btn-lebih {
+  border: 1px solid #ed1847;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.btn-lebih:hover {
+  background-color: #ed1847;
+  color: white !important;
+}
+.text-yakult p {
+  text-align: justify;
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 5px;
+}
+.text-yakult h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+.text-menyapa {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.img-zoom {
+  margin-bottom: 20px;
+}
+.img-zoom img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn-tri {
+  font-weight: 400;
+  border-radius: 30px;
+  border: 2px solid #ed1847;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn-tri:hover {
+  background-color: #ed1847;
+  color: white !important;
+}
+#kunjunganpabrik img {
+  width: 100%;
+}
+#kunjunganpabrik h3 {
+  background-color: #fef2d2;
+  text-align: center;
+  color: #ed1847;
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 20px;
+}
+#kunjunganpabrik p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #fef2d2;
+}
+.footer ul {
+  list-style: none;
+}
+.usus {
+  width: 70%;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-weight: 500;
+    font-size: 32px;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white !important;
+    font-size: 18px;
+  }
+  .nav-link:hover {
+    color: #fef2d2;
+  }
+  .img-yakult img {
+    width: 100% !important;
+  }
+
+  .text-yakult p {
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .text-yakult h3 {
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  #yakultmenyapa {
+    min-height: 550px;
+  }
+  #kunjunganpabrik p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  #kunjunganpabrik .bawah {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  #kunjunganpabrik .bawah button {
+    margin: 20px 0;
+  }
+  .footer {
+    padding: 50px 20px;
+  }
+  .footer ul li {
+    font-weight: 400;
+  }
+  .usus {
+    width: 80%;
+  }
+  .img-yakult img {
+    width: 90% !important;
+  }
+  .footer-text li h6 {
+    font-size: 18px;
+  }
+  .text-yakult h3 {
+    font-size: 30px;
+  }
+}
